@@ -11,6 +11,10 @@ span{
 h3{
     color: orangered;
 }
+p{
+    text-align: justify;
+    color: gray;
+}
 section{
     display: flex;
     align-items: center;
@@ -24,7 +28,7 @@ section{
     width: 80%;
 }
 .btn{
-    padding: 10px 40px ;
+    padding: 10px 50px ;
     font-size: 20px;
     border: none;
     border-radius: 10px;
@@ -32,5 +36,61 @@ section{
 }
 .btn a{
     text-decoration: none;
-    color: black;
+    color: #fff;
+    text-transform: uppercase;
+}
+main{
+    display: flex;
+    align-items: top;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+main p{
+    width: 80%;
+}
+h2{
+    font-size: 40px;
+}
+.moon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+}
+aside{
+    margin-top: 200px;
+    position: relative;
+}
+
+.footer-section .help-width{
+    height: 350px;
+    width: 42%;
+    margin: 0 auto;
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 0 20px;
+    text-align: center;
+    box-shadow:5px 10px 15px  5px gray ;
+}
+aside h2{
+    text-align: center;
+}
+aside hr{
+    width: 90%;
+    margin: 0 auto;
+    height: 3px;
+    background-color: steelblue;
+    margin-bottom: 10px;
+}
+aside img{
+    position: absolute;
+    left: 0;
+    opacity: 0.6;
+}
+footer{
+    margin-top:200px;
+    text-align: center;
 }
