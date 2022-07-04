@@ -46,16 +46,12 @@ section{
 main{
     display: flex;
     align-items: top;
-    /* position: relative; */
     margin-top: 200px;
     padding-left: 10px;
     padding-right: 10px;
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom ;
-}
-main p{
-    width: 80%;
 }
 h2{
     font-size: 40px;
@@ -70,7 +66,6 @@ aside{
     margin-top: 200px;
     position: relative;
 }
-
 .footer-section .help-width{
     height: 350px;
     width: 42%;
