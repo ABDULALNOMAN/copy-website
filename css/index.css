@@ -1,6 +1,10 @@
 body{
         font-family: 'Poppins', sans-serif; 
         text-transform: capitalize;
+        background-image:url(../images/top-banner.png);
+        background-position: top left;
+        background-repeat: no-repeat;
+
 }
 h1{
     font-size: 50px;
@@ -42,11 +46,13 @@ section{
 main{
     display: flex;
     align-items: top;
-    position: relative;
+    /* position: relative; */
     margin-top: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
-
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom ;
 }
 main p{
     width: 80%;
@@ -54,12 +60,12 @@ main p{
 h2{
     font-size: 40px;
 }
-.moon{
+/* .moon{
     position: absolute;
     right: 0;
     bottom: 0;
     width: 100px;
-}
+} */
 aside{
     margin-top: 200px;
     position: relative;
@@ -88,7 +94,14 @@ aside hr{
 aside img{
     position: absolute;
     left: 0;
+    bottom: 0;
     opacity: 0.6;
+}
+.border-red{
+    border-left: 4px solid red;
+}
+.border-blue{
+    border-left: 4px ridge blue;
 }
 footer{
     margin-top:200px;
